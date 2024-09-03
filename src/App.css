@@ -1,0 +1,53 @@
+body {
+  font-family: 'Lexend', sans-serif;
+  background-color: #1a1a2e;
+  color: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.hero-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1a1a2e; 
+  position: relative;
+  width: 100%;
+}
+
+.headline {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+  margin-top: 100px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ccc; 
+  margin-top: 0.5rem;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.search-container input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  width: 60%;
+  max-width: 600px;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-top: 2rem;
+  padding: 2rem;
+}

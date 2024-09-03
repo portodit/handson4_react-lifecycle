@@ -1,0 +1,43 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1a1a2e; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); 
+  }
+  
+  
+  .nav-items {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 150px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #ff0000; 
+  }
+  
+
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
